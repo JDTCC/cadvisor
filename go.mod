@@ -5,7 +5,7 @@ go 1.17
 replace golang.org/x/net => golang.org/x/net v0.7.0
 
 require (
-	cloud.google.com/go v0.97.0
+	cloud.google.com/go/compute/metadata v0.2.3
 	github.com/Microsoft/go-winio v0.4.15
 	github.com/aws/aws-sdk-go v1.35.24
 	github.com/blang/semver v3.5.1+incompatible
@@ -30,14 +30,15 @@ require (
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/net v0.7.0
 	golang.org/x/sys v0.5.0
-	google.golang.org/grpc v1.51.0
+	google.golang.org/grpc v1.53.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed
 )
 
 require (
+	cloud.google.com/go/compute v1.15.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/checkpoint-restore/go-criu/v5 v5.3.0 // indirect
 	github.com/cilium/ebpf v0.7.0 // indirect
 	github.com/containerd/console v1.0.3 // indirect
@@ -48,7 +49,7 @@ require (
 	github.com/go-logr/logr v1.2.0 // indirect
 	github.com/godbus/dbus/v5 v5.0.6 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/uuid v1.1.2 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2 // indirect
 	github.com/moby/term v0.0.0-20221205130635-1aeaba878587 // indirect
@@ -65,7 +66,7 @@ require (
 	github.com/vishvananda/netlink v1.1.0 // indirect
 	github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df // indirect
 	golang.org/x/text v0.7.0 // indirect
-	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
+	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.0.2 // indirect
